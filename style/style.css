@@ -1,0 +1,199 @@
+/*CSS by Nicholas Fullerton Nov 2020*/
+html {
+    height: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    min-width: 850px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(250, 250, 250);
+    height: 100%;
+    background-color: rgb(109, 109, 109);
+    background-image: url(../imgs/dcsfa18.png);
+    background-repeat: no-repeat;
+    background-size: 120vw 120vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    text-align: center;
+    font-variant: small-caps;
+    padding: 2%;
+    margin: 2%;
+    background: linear-gradient(rgba(0, 26, 255, 0.664) 0%, rgb(0, 0, 138) 100%);
+    border-style: outset;
+    border-color: rgb(58, 58, 58);
+    border-width: 2%;
+    border-radius: 10px;
+    width: 90%;
+}
+
+h1 {
+    padding: 2%;
+    font-size: 60px;
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: -5px -5px rgb(27, 27, 27);
+}
+
+h2 {
+    padding: 2%;
+    font-size: 24px;
+    font-style: italic;
+    text-decoration: underline;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    background: rgba(39, 39, 39, 0.541);
+    margin: 2%;
+    padding: 2%;
+    width: 90%;
+    border-width: 2%;
+    border-color: rgba(250, 250, 250, 0.822);
+    border-style: solid;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 109);
+    color:rgb(255, 255, 255) ;
+    font-size: 20px;
+    border-style: outset;
+    border-color: rgb(224, 224, 224);
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1%;
+    transition: 1s;
+    transition-property: background;
+}
+
+nav a:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
+}
+
+.active{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-style: inset;
+}
+
+.contact article:nth-child(2) {
+    transform: none;
+}
+
+section article {
+    background-color: rgba(39, 39, 39, 0.541);
+    border-style: solid;
+    padding: 10px;
+    text-align: left;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+}
+
+section article:hover {
+    transform: scale(1.10);
+    -webkit-transform: scale(1.10);
+    -moz-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    background-color: rgb(39, 39, 39) ;
+}
+
+section article p {
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section {
+    border-width: 2%;
+    border-style: ridge;
+    background-color: rgba(39, 39, 39, 0.452);
+    width: 90%;
+    padding: 2%;
+    margin: 2%;
+}
+
+.contact p {
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    font-size: 18px;
+}
+
+.contact article p a {
+    color: rgb(170, 0, 0);
+    background-color: rgba(128, 128, 128, 0.623);
+}
+
+.widget {
+    margin-left: 16%;
+    width: 70%;
+}
+
+.roe {
+    color: rgb(170, 0, 0);
+    background-color: rgba(128, 128, 128, 0.623);
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+}
+
+li {
+    text-align: left;
+    margin-left: 12%;
+    margin-right: 12%;
+    border-left: 5px solid rgb(158, 0, 0) ;
+    padding: 5px;
+}
+
+.join {
+    text-align: center;
+    margin: auto;
+}
+
+.join ol{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.centered {
+    text-align: center;
+    margin: auto;
+}
+
+.centered a {
+    color: rgb(170, 0, 0);
+    background-color: rgba(128, 128, 128, 0.623);
+}
+
+.campaigns article p{
+    text-align: center;
+}
+
+footer, footer p {
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer a {
+    color: rgb(1, 120, 255);
+}
